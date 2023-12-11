@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">,
+  <link rel="stylesheet" href="/src/styles/globalStyles.css">  
+  <link rel="stylesheet" href="/src/styles/register/register.css">
+  <link rel="stylesheet" href="/src/styles/register/sectionDescription.css">
+  <link rel="stylesheet" href="/src/styles/register/sectionRegister.css">
+  <link rel="stylesheet" href="/src/styles/register/text.css">
+
+  <script src="https://kit.fontawesome.com/fb2208b0dd.js" crossorigin="anonymous"></script>
+  <title>Register</title>
+</head>
+<body>
+  <main>
+    <section class="register_conteiner">
+      <div class="register">
+        <h3 class="title_high">Cadastro</h3>
+        <a href="/index.html" class="button_back">Voltar para o login</a>
+      </div>
+      <h4 class="title_medium">Usuário</h4>
+      <input id="name" type="text" placeholder="Digite seu usuário aqui">
+      <h4 class="title_medium">Email</h4>
+      <input id="email" type="text" placeholder="Digite seu e-mail aqui">
+      <h4 class="title_medium">Link da foto do perfil</h4>
+      <input id="password" type="text" placeholder="Insira o link aqui">
+      <h4 class="title_medium">Senha</h4>
+      <input id="image" type="password" placeholder="Digite sua senha aqui">
+      <button class="button_register">Cadastrar</button>
+      <a href="/index.html" class="button_login">Voltar para o login</a>
+    </section>
+    <section class="description_container">
+      <h1 class="description_high">Petinfo</h1>
+      <h1 class="description_medium">Ooooooba!</h1>
+      <p class="description">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+      <div class="img_container">
+        <div class="img_container_inner">
+          <div class="img_block_container">
+            <img class="img_block" src="https://cdn.pixabay.com/photo/2019/06/05/08/37/dog-4253238_640.jpg" alt="Gatinho">
+            <img class="img_block" src="https://cdn.pixabay.com/photo/2022/01/29/10/59/cat-6977088_640.jpg" alt="">
+          </div>
+          <img class="img_vertical" src="https://cdn.pixabay.com/photo/2017/10/02/21/56/dog-2810484_640.jpg" alt="">
+        </div>
+        <div>
+          <img class="img_horizontal" src="https://cdn.pixabay.com/photo/2018/07/08/14/16/cat-3523992_640.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="alert-div" class="alert">
+    <div class="alert_container">
+      <i class="fa-sharp fa-solid fa-circle-check"></i>
+      <h3 class="text_alert">Sua conta foi criada com sucesso!</h3>
+    </div>
+    <p class="text_description">Agora você pode acessar os conteúdos utilizado seu usuário e senha na página de login: <a href="/index.html">Acessar página de login</a></p>
+  </div>
+</body>
+<script src="/src/scripts/register.js"></script>
+</html>

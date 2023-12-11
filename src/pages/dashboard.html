@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/styles/globalStyles.css">
+  <link rel="stylesheet" href="/src/styles/dashboard/dashboard.css">
+  <link rel="stylesheet" href="/src/styles/dashboard/section.css">
+  <link rel="stylesheet" href="/src/styles/dashboard/modal.css">
+  <link rel="stylesheet" href="/src/styles/dashboard/button.css">
+  <link rel="stylesheet" href="/src/styles/dashboard/text.css">
+  <title>Dashboard</title>
+</head>
+<body>
+  <dialog id="modalController">
+    <div>
+      <div class="header_modal">
+        <h1 class="modal_title">Criando novo post</h1>
+        <button class="close_modal">X</button>
+      </div>
+      <div class="main_modal">
+        <h2 class="modal_text">Título do post</h2>
+        <input class="title_modal" type="text" placeholder="Digite o título aqui...">
+        <h2 class="modal_text">Conteúdo do post</h2>
+        <input class="description_modal" type="text" placeholder="Desenvolva o conteúdo do post aqui...">
+      </div>
+      <div class="container_buttons">
+        
+          <button class="close_modal">Cancelar</button>
+          <button class="confirm_post">Publicar</button>
+        
+      </div>
+    </div>
+  </dialog>
+  <nav>
+    <h1 class="title_header">Petinfo</h1>
+    <div>
+      <button class="create_post">Criar publicação</button>
+      <img 
+      class="img_header" src="https://i.pinimg.com/originals/27/87/5d/27875d70cf52a0a643aeda13bbb7b0cd.jpg" alt="">
+    </div>
+  </nav>
+  <main>
+    <div>
+      <div>
+        <h2 class="title_div">Feed</h2>
+      </div>      
+    </div>
+    <section class="section">
+     <div>
+      <div class="header_post">
+        <div class="profile_post">
+          <img class="img_post" src="https://i.pinimg.com/originals/27/87/5d/27875d70cf52a0a643aeda13bbb7b0cd.jpg"  alt="">
+          <h3 class="title_profile">Filipe Kowalsky</h3>
+          <div></div>
+          <p class="text_profile">Agosto de 2022</p>
+        </div>
+        <div>
+          <button class="button_edit">Editar</button>
+          <button class="button_delete">Excluir</button>
+        </div>
+      </div>
+      <div class="description_post">
+        <h1 class="title_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga recusandae sunt aut, sint soluta officia exercitationem enim culpa corporis, nihil deleniti voluptatum facere praesentium molestiae alias modi pariatur error dicta.</h1>
+        <p class="text_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, quas nostrum voluptatibus expedita dolores, debitis, nihil itaque dolore suscipit voluptatem iste. Fugiat iste non ducimus maiores tempore excepturi quo esse!</p>
+        <button class="acess_post">Acessar publicação</button>
+      </div>
+     </div>
+    </section>
+  </main>
+  <script src="/src/scripts/dashboard.js"></script>
+</body>
+</html>

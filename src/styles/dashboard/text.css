@@ -1,0 +1,55 @@
+.title_header{
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.title_div{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.title_profile{
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.text_profile{
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 500;
+  color: var(--gray400);
+}
+
+.title_description{
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.text_description{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--gray100);
+}
+
+.modal_title{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 550;
+  color: var(--gray100);
+}
+
+.modal_text{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 550;
+  color: var(--gray100);
+}

@@ -1,0 +1,52 @@
+.description_high{
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.description_medium{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--gray300);
+}
+  
+.description_low{
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 400;
+  color: var(--gray300);
+}
+
+.title_high{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.title_medium{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+.title_low{
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 600;
+  color: var(--gray100);
+}
+
+#erro_password{
+  font-size: 0.875rem;
+  line-height: 1.313rem;
+  font-weight: 400;
+  color: var(--alert100);
+}
+
+span{
+  color: var(--brand100);
+}

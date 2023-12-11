@@ -1,0 +1,22 @@
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main{
+  height: 90vh;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+section{
+  max-width: 400px;
+}
+
+.hidden{
+  display: none;
+}

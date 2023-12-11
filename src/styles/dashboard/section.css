@@ -1,0 +1,36 @@
+section{
+  width: 40%;
+}
+
+.header_post{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_post{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.img_post{
+  width: 40px;
+  border: 1px solid var(--brand100);
+  border-radius: 50%;
+}
+
+.profile_post > div{
+  width: 2px;
+  height: 20px;
+  background-color: var(--gray600);
+}
+
+.description_post{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
